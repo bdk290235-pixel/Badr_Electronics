@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="BADR ELECTRONICS: لابتوبات، موبايلات، تابلت، أجهزة جيمنج وشواحن أصلية بضمان رسمي.">
+<title>BADR ELECTRONICS | بدر إلكترونيكس</title>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">شحن لكل المحافظات • ضمان رسمي • تقسيط بدون فوايد • كود خصم <b>BADR5</b> بـ 5%</div>
+
+<!-- Big Centered Header Nav -->
+<header class="nav-header">
+  <a class="brand-main" href="#top"><i class="fa-solid fa-microchip"></i><span>BADR <b>ELECTRONICS</b></span></a>
+  
+  <div class="nav-bar">
+    <nav id="links">
+      <a href="#shop">المنتجات</a><a href="#why">ليه بدر</a><a href="#service">الصيانة</a><a href="#faq">أسئلة</a><a href="#contact">تواصل</a>
+    </nav>
+    <div class="acts">
+      <button class="ib" id="theme" aria-label="الوضع"><i class="fa-solid fa-circle-half-stroke"></i></button>
+      <button class="ib" id="favBtn" aria-label="المفضلة"><i class="fa-regular fa-heart"></i><span class="bd" id="favN">0</span></button>
+      <button class="ib" id="cartBtn" aria-label="السلة"><i class="fa-solid fa-cart-shopping"></i><span class="bd" id="cartN">0</span></button>
+      <button class="ib burger" id="burger" aria-label="القائمة"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div>
+    <p class="tag"><i class="fa-solid fa-bolt"></i> تشكيلة 2026 الضخمة متوفرة الآن</p>
+    <h1>أجهزتك الجاية<br><span>بقوة أكبر</span> وسعر أحسن</h1>
+    <p class="lead">أضخم تشكيلة لابتوبات وموبايلات وتابلت وماوسات وأجهزة جيمنج وباور بانك وشواحن أصلية من أكبر الماركات العالميّة.</p>
+    <div class="cta"><a class="btn pri" href="#shop">تسوّق الآن</a><a class="btn" href="#service">احجز صيانة</a></div>
+    <ul class="stats"><li><b>+2000</b>منتج</li><li><b>24 شهر</b>ضمان</li><li><b>48 ساعة</b>توصيل</li></ul>
+  </div>
+  <div class="hv"><img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=80" alt="BADR ELECTRONICS"><div class="chip c1"><i class="fa-solid fa-shield-halved"></i> ضمان رسمي</div><div class="chip c2"><i class="fa-solid fa-credit-card"></i> دفع بالفيزا 100%</div></div>
+</section>
+
+<section id="shop" class="sec">
+  <div class="head"><h2>المنتجات</h2><p>اضغط على أي جهاز لرؤية كافة الإمكانيات والمواصفات التفصيلية</p></div>
+  <div class="tools">
+    <div class="search"><i class="fa-solid fa-magnifying-glass"></i><input id="q" type="search" placeholder="ابحث: آيفون، ماك بوك، سامسونج، لوجيتك، أنكر، شاحن..." aria-label="بحث"></div>
+    <select id="sort" aria-label="ترتيب"><option value="d">الافتراضي</option><option value="r">الأعلى تقييماً</option><option value="a">الأرخص أولاً</option><option value="z">الأغلى أولاً</option></select>
+    <button class="btn sm" id="favOnly" aria-pressed="false">المفضلة فقط</button>
+  </div>
+  
+  <div class="cats" id="cats"></div>
+  
+  <div class="subcats" id="subcats" style="display:none;">
+    <span class="subcat-label"><i class="fa-solid fa-filter"></i> اختر النوع / الماركة:</span>
+    <div class="subcat-list" id="subcatList"></div>
+  </div>
+
+  <p class="info" id="info" aria-live="polite"></p>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section id="why" class="sec alt">
+  <div class="head"><h2>ليه BADR ELECTRONICS؟</h2></div>
+  <div class="feat">
+    <div><i class="fa-solid fa-shield-halved"></i><h3>ضمان رسمي</h3><p>كل الأجهزة أصلية بضمان الوكيل أو ضمان المحل.</p></div>
+    <div><i class="fa-solid fa-credit-card"></i><h3>دفع بالفيزا أو كاش</h3><p>طرق دفع آمنة وسهلة إلكترونياً أو عند الاستلام.</p></div>
+    <div><i class="fa-solid fa-truck-fast"></i><h3>شحن سريع</h3><p>توصيل لباب البيت لكل محافظات مصر.</p></div>
+    <div><i class="fa-solid fa-headset"></i><h3>دعم فني</h3><p>فريق بيساعدك تختار الجهاز المناسب لشغلك.</p></div>
+  </div>
+</section>
+
+<section id="service" class="sec">
+  <div class="split">
+    <div><h2>حجز صيانة أو استشارة</h2><p class="lead">جهازك واقف؟ سيبلنا بياناتك وهنتواصل معاك خلال ساعات. فحص مجاني قبل أي إصلاح.</p></div>
+    <form id="svc" class="card" novalidate>
+      <label>الاسم<input id="sn" required minlength="3" autocomplete="name"></label>
+      <label>رقم الهاتف<input id="sp" type="tel" required pattern="01[0125][0-9]{8}" placeholder="01xxxxxxxxx" inputmode="numeric"></label>
+      <label>نوع الجهاز<select id="st"><option>لابتوب</option><option>موبايل</option><option>تابلت</option><option>جهاز ألعاب</option><option>ماوس / كيبورد</option><option>باور بانك / شاحن</option><option>آخر</option></select></label>
+      <label>وصف المشكلة<textarea id="sd" rows="2" maxlength="160"></textarea></label>
+      <p class="err" id="se" role="alert"></p>
+      <button class="btn pri block">إرسال الطلب</button>
+    </form>
+  </div>
+</section>
+
+<section id="faq" class="sec alt">
+  <div class="head"><h2>أسئلة بتتكرر</h2></div>
+  <div class="faq">
+    <details><summary>الأجهزة أصلية؟</summary><p>أكيد، كل الأجهزة أصلية ومعاها فاتورة وضمان رسمي.</p></details>
+    <details><summary>إزاي أعرف كافة مواصفات الجهاز؟</summary><p>ببساطة اضغط على أي كارت للابتوب أو الموبايل أو الجيمنج وستظهر لك نافذة بها كافة المواصفات والإمكانيات التفصيلية.</p></details>
+    <details><summary>إزاي أدفع بالفيزا؟</summary><p>عند إتمام الطلب، اختار الدفع بالفيزا واكتب بيانات البطاقة بأمان ثم اضغط تأكيد.</p></details>
+    <details><summary>الشحن بكام؟</summary><p>الشحن 60 ج.م، ومجاني للطلبات فوق 10,000 ج.م.</p></details>
+  </div>
+</section>
+
+<section id="contact" class="sec">
+  <div class="head"><h2>تواصل معنا</h2><p>يومياً من 10 صباحاً حتى 11 مساءً</p></div>
+  <div class="feat three">
+    <div><i class="fa-solid fa-location-dot"></i><h3>العنوان</h3><p>المحلة الكبرى، الغربية، مصر</p></div>
+    <div><i class="fa-solid fa-phone"></i><h3>الهاتف</h3><p dir="ltr">+20 127 396 6211</p></div>
+    <div><i class="fa-brands fa-whatsapp"></i><h3>واتساب</h3><p dir="ltr">+20 127 396 6211</p></div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <p class="fb"><i class="fa-solid fa-microchip"></i> BADR ELECTRONICS</p>
+  <p>صاحب المحل: <b>كريم بدر</b></p>
+  <p>جميع الحقوق محفوظة &copy; 2026 - BADR ELECTRONICS</p>
+  <p class="credit" dir="ltr" lang="en">Developed &amp; modified by <strong>Kareem Badr</strong></p>
+</footer>
+
+<div class="ov" id="ov"></div>
+
+<!-- Drawer / Cart -->
+<aside class="drawer" id="drawer" aria-label="السلة" aria-hidden="true">
+  <div class="dh"><h3>سلة المشتريات</h3><button class="ib" id="closeC" aria-label="إغلاق">&times;</button></div>
+  <div class="dv" id="vCart"><div class="db" id="items"></div>
+    <div class="df"><form class="promo" id="promoF"><input id="promo" placeholder="كود الخصم" autocomplete="off"><button class="btn sm">تطبيق</button></form><div id="tot"></div><button class="btn pri block" id="goCo">إتمام الطلب</button></div></div>
+  <form class="dv db" id="vCo" hidden novalidate>
+    <button type="button" class="lnk" id="back">&rarr; رجوع للسلة</button>
+    <label>الاسم بالكامل<input id="cn" required minlength="3"></label>
+    <label>رقم الهاتف<input id="cp" type="tel" required pattern="01[0125][0-9]{8}" inputmode="numeric" placeholder="01xxxxxxxxx"></label>
+    <label>العنوان التفصيلي<textarea id="ca" rows="2" required minlength="8"></textarea></label>
+    
+    <label>طريقة الدفع
+      <div class="pay-options">
+        <label class="pay-option">
+          <input type="radio" name="payMethod" value="cod" checked>
+          <span><i class="fa-solid fa-money-bill-wave"></i> الدفع عند الاستلام (كاش)</span>
+        </label>
+        <label class="pay-option">
+          <input type="radio" name="payMethod" value="card">
+          <span><i class="fa-solid fa-credit-card"></i> الدفع بالفيزا / البطاقة البنكية</span>
+        </label>
+      </div>
+    </label>
+
+    <div class="visa-box" id="visaBox">
+      <div class="visa-head"><i class="fa-brands fa-cc-visa"></i> إدخال بيانات الفيزا / الكارت البنكي</div>
+      <label>اسم صاحب الكارت<input id="cardName" placeholder="KAREEM BADR"></label>
+      <label>رقم الكارت (16 رقم)<input id="cardNumber" maxlength="19" placeholder="4000 1234 5678 9010" inputmode="numeric"></label>
+      <div class="visa-row">
+        <label>تاريخ الانتهاء<input id="cardExp" maxlength="5" placeholder="MM/YY" inputmode="numeric"></label>
+        <label>رمز الأمان (CVC)<input id="cardCvc" maxlength="4" placeholder="123" type="password" inputmode="numeric"></label>
+      </div>
+    </div>
+
+    <p class="err" id="ce" role="alert"></p><div id="tot2"></div>
+    <button class="btn pri block" id="submitOrderBtn"><i class="fa-brands fa-whatsapp"></i> تأكيد وإتمام الطلب</button>
+  </form>
+  <div class="dv ok" id="vOk" hidden><i class="fa-solid fa-circle-check"></i><h3>تم إرسال الطلب وتأكيد الدفع</h3><p>رقم الطلب <b id="ono"></b></p><button class="btn pri" id="okC">متابعة التسوق</button></div>
+</aside>
+
+<!-- Product Details Modal -->
+<div class="p-modal-ov" id="pModalOv">
+  <div class="p-modal" id="pModal">
+    <button class="p-modal-close" id="pModalClose">&times;</button>
+    <div class="p-modal-body" id="pModalBody"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body>
+</html>
